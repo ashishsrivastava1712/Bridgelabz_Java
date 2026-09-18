@@ -1,0 +1,11 @@
+*.class
+out/
+bin/
+target/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+!out/.gitkeep
+!out/
+!out/.gitkeep
