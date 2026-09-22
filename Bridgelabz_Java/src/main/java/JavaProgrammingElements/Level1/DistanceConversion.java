@@ -1,5 +1,5 @@
 /*
- * Problem 12 - GCR Control Flow Level 1
+ * Problem 12 - GCR Programming Elemnets Level 1
  * Write a program to find the distance in yards and miles
  * for the distance provided by user in feet.
  *
