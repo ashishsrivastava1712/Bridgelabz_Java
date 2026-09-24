@@ -12,11 +12,33 @@ feature/*: week-wise topic branches containing the solutions
 
 Daily Task Update
 
+Day 05 - 23 Sep 2026
+
+What I have done
+
+Completed the remaining Java Arrays problems and finished the Array assignments.
+
+Started studying Methods in Java and understood the basic concepts.
+
+Solved Level 1 and Level 2 problems from the Java Methods assignment.
+
+What I will do
+
+Continue working on the remaining Java Methods problems.
+
+Practice more method-based problems to improve my understanding and coding skills.
+
+Issues faced
+
+Initially got a little confused about when to use methods and how to pass values to them while solving the problems.
+
+================================================================
+
 Day 04 - 22 Sep 2026
 
 What I have done
 
-Continued working on Java Control Flow and completed the Level 1,2,3 problems.
+Continued working on Java Control Flow and completed the Level 1, 2, 3 problems.
 
 Started working on Java Arrays and completed the Level 1 assignment.
 
@@ -93,5 +115,4 @@ Complete the remaining operator problems.
 Start the javaControlFlow package with if-else and switch.
 
 Issues faced
-
-Was confused between git and github
+was confused between git and github
