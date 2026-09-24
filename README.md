@@ -12,6 +12,22 @@ feature/*: week-wise topic branches containing the solutions
 
 Daily Task Update
 
+Day 06 - 24 Sep 2026
+
+What I have done
+
+Completed the Level 2 and Level 3 problems from the Java Methods assignment.
+
+What I will do
+
+Revise the Java Methods concepts and basics before moving on to the next topic.
+
+Issues faced
+
+Got a little confused with some method concepts while solving the higher-level problems.
+
+================================================================
+
 Day 05 - 23 Sep 2026
 
 What I have done
@@ -115,4 +131,7 @@ Complete the remaining operator problems.
 Start the javaControlFlow package with if-else and switch.
 
 Issues faced
-was confused between git and github
+
+Was confused between Git and GitHub.
+
+================================================================
