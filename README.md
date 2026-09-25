@@ -12,6 +12,24 @@ feature/*: week-wise topic branches containing the solutions
 
 Daily Task Update
 
+Day 07 - 25 Sep 2026
+
+What I have done
+
+Studied the basics and concepts of Strings in Java.
+
+Completed the Level 1 problems from the Java Strings assignment.
+
+What I will do
+
+Continue with the Java Strings assignment and complete the Level 2 and Level 3 problems.
+
+Issues faced
+
+Initially took some time to understand the different String methods and how to use them while solving problems.
+
+================================================================
+
 Day 06 - 24 Sep 2026
 
 What I have done
