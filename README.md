@@ -12,7 +12,73 @@ feature/*: week-wise topic branches containing the solutions
 
 Daily Task Update
 
-Day 08 - 26 Sep 2026
+Day 12 - 30 Sep 2026
+
+What I have done
+
+Continued working on Java OOP concepts.
+
+Studied constructors in Java and understood their basic use and purpose.
+
+Started solving Level 1 problems related to constructors and practiced different constructor-based questions.
+
+What I will do
+
+Continue with the remaining constructor problems.
+
+Practice more OOP concepts and problems to strengthen my understanding.
+
+Issues faced
+
+Initially got a little confused between constructors and methods, especially their syntax and how they are called.
+
+================================================================
+
+Day 11 - 29 Sep 2026
+
+What I have done
+
+Continued studying the basics of OOP in Java.
+
+Practiced different OOP-related questions and worked on understanding classes and objects in more detail.
+
+Started learning about constructors and their basic implementation.
+
+What I will do
+
+Continue with constructors and solve the related assignment problems.
+
+Practice more questions based on classes, objects and constructors.
+
+Issues faced
+
+Took some time to understand how objects and constructors work together.
+
+================================================================
+
+Day 10 - 28 Sep 2026
+
+What I have done
+
+Completed the Java Strings Level 3 assignment.
+
+Practiced some extra String questions to improve my understanding.
+
+Worked with different built-in String functions and practiced using them in different problems.
+
+What I will do
+
+Start learning the basic concepts of Object-Oriented Programming in Java.
+
+Practice simple OOP problems and understand classes and objects.
+
+Issues faced
+
+Some String problems required combining multiple built-in functions, which took some time to understand.
+
+================================================================
+
+Day 09 - 26 Sep 2026
 
 What I have done
 
@@ -28,7 +94,7 @@ Took some time to understand and apply different String methods together while s
 
 ================================================================
 
-Day 07 - 25 Sep 2026
+Day 08 - 25 Sep 2026
 
 What I have done
 
@@ -46,7 +112,7 @@ Initially took some time to understand the different String methods and how to u
 
 ================================================================
 
-Day 06 - 24 Sep 2026
+Day 07 - 24 Sep 2026
 
 What I have done
 
@@ -62,7 +128,7 @@ Got a little confused with some method concepts while solving the higher-level p
 
 ================================================================
 
-Day 05 - 23 Sep 2026
+Day 06 - 23 Sep 2026
 
 What I have done
 
@@ -84,7 +150,7 @@ Initially got a little confused about when to use methods and how to pass values
 
 ================================================================
 
-Day 04 - 22 Sep 2026
+Day 05 - 22 Sep 2026
 
 What I have done
 
@@ -106,7 +172,7 @@ Took some time to get comfortable with array indexing and accessing elements whi
 
 ================================================================
 
-Day 03 - 21 Sep 2026
+Day 04 - 21 Sep 2026
 
 What I have done
 
@@ -126,7 +192,7 @@ I was comparatively slow in finding real use cases for the switch function since
 
 ================================================================
 
-Day 02 - 19 Sep 2026
+Day 03 - 19 Sep 2026
 
 What I have done
 
@@ -150,7 +216,7 @@ Understood the issue and also learned about the Random library.
 
 ================================================================
 
-Day 01 - 18 Sep 2026
+Day 02 - 18 Sep 2026
 
 What I have done
 
