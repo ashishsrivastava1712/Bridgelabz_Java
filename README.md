@@ -12,25 +12,79 @@ feature/*: week-wise topic branches containing the solutions
 
 Daily Task Update
 
+Day 15 - 03 Oct 2026
+
+What I have done
+
+Continued working on Java OOP concepts.
+
+Studied Polymorphism and understood method overloading and method overriding.
+
+Practiced different questions based on compile-time and runtime polymorphism.
+
+What I will do
+
+Revise all the OOP concepts covered so far and practice more problems based on them.
+
+Issues faced
+
+Initially got a little confused between method overloading and method overriding and how they behave in different situations.
+
+================================================================
+
+Day 14 - 02 Oct 2026
+
+What I have done
+
+Studied Inheritance in Java and understood how properties and methods can be inherited from a parent class.
+
+Practiced different types of inheritance and worked with concepts like super and method overriding.
+
+What I will do
+
+Continue with Polymorphism and practice more problems based on inheritance.
+
+Issues faced
+
+Took some time to understand the relationship between parent and child classes and how inherited members are accessed.
+
+================================================================
+
+Day 13 - 01 Oct 2026
+
+What I have done
+
+Studied Object Modelling in Java and understood how classes, objects, attributes and behaviours are represented.
+
+Continued practicing OOP concepts and worked on different object modelling examples.
+
+What I will do
+
+Start learning Inheritance and understand how classes can be related to each other.
+
+Issues faced
+
+Initially found it a little difficult to convert a real-world problem into classes, objects and their relationships.
+
+================================================================
+
 Day 12 - 30 Sep 2026
 
 What I have done
 
 Continued working on Java OOP concepts.
 
-Studied constructors in Java and understood their basic use and purpose.
+Studied the this keyword and static members in Java.
 
-Started solving Level 1 problems related to constructors and practiced different constructor-based questions.
+Practiced questions related to instance variables, static variables, static methods and the use of this.
 
 What I will do
 
-Continue with the remaining constructor problems.
-
-Practice more OOP concepts and problems to strengthen my understanding.
+Continue with Object Modelling and practice more OOP-based problems.
 
 Issues faced
 
-Initially got a little confused between constructors and methods, especially their syntax and how they are called.
+Got confused between instance members and static members and when to use this.
 
 ================================================================
 
@@ -38,21 +92,19 @@ Day 11 - 29 Sep 2026
 
 What I have done
 
-Continued studying the basics of OOP in Java.
+Studied constructors in Java in more detail.
 
-Practiced different OOP-related questions and worked on understanding classes and objects in more detail.
+Practiced constructor chaining, parameterized constructors, default constructors and different constructor-based questions.
 
-Started learning about constructors and their basic implementation.
+Also studied the basic IIMSTSMCR concepts related to Java classes and objects.
 
 What I will do
 
-Continue with constructors and solve the related assignment problems.
-
-Practice more questions based on classes, objects and constructors.
+Continue with the remaining OOP concepts and practice more questions based on constructors and object creation.
 
 Issues faced
 
-Took some time to understand how objects and constructors work together.
+Took some time to understand constructor chaining and the order in which constructors are called.
 
 ================================================================
 
@@ -60,21 +112,21 @@ Day 10 - 28 Sep 2026
 
 What I have done
 
-Completed the Java Strings Level 3 assignment.
+Started learning Object-Oriented Programming in Java.
 
-Practiced some extra String questions to improve my understanding.
+Studied the concepts of classes and objects and understood how objects are created and used in Java.
 
-Worked with different built-in String functions and practiced using them in different problems.
+Started working with constructors and practiced some basic object creation problems.
 
 What I will do
 
-Start learning the basic concepts of Object-Oriented Programming in Java.
+Continue studying constructors and other basic OOP concepts.
 
-Practice simple OOP problems and understand classes and objects.
+Practice more questions based on classes, objects and constructors.
 
 Issues faced
 
-Some String problems required combining multiple built-in functions, which took some time to understand.
+Initially got a little confused between a class, an object and a constructor and how they are connected.
 
 ================================================================
 
@@ -233,5 +285,25 @@ Start the javaControlFlow package with if-else and switch.
 Issues faced
 
 Was confused between Git and GitHub.
+
+================================================================
+
+Day 01 - 17 Sep 2026
+
+What I have done
+
+Started the BridgeLabz Java training and set up the basic project structure.
+
+Understood the initial workflow for completing and submitting the Java assignments.
+
+Started working on the basic Java programming concepts and practiced some introductory problems.
+
+What I will do
+
+Continue with the Java Programming Elements assignment and work on variables, data types and operators.
+
+Issues faced
+
+Initially took some time to understand the assignment structure and how to organize the solutions in the repository.
 
 ================================================================
