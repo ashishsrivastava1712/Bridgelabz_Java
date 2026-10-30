@@ -1,309 +1,59 @@
-Bridgelabz Java
-
-Java assignments and practice problems completed as part of the BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
-
-Repository Structure
-
-main
-develop
-feature/*: week-wise topic branches containing the solutions
-
-================================================================
-
-Daily Task Update
-
-Day 15 - 03 Oct 2026
-
-What I have done
-
-Continued working on Java OOP concepts.
-
-Studied Polymorphism and understood method overloading and method overriding.
-
-Practiced different questions based on compile-time and runtime polymorphism.
-
-What I will do
-
-Revise all the OOP concepts covered so far and practice more problems based on them.
-
-Issues faced
-
-Initially got a little confused between method overloading and method overriding and how they behave in different situations.
-
-================================================================
-
-Day 14 - 02 Oct 2026
-
-What I have done
-
-Studied Inheritance in Java and understood how properties and methods can be inherited from a parent class.
-
-Practiced different types of inheritance and worked with concepts like super and method overriding.
-
-What I will do
-
-Continue with Polymorphism and practice more problems based on inheritance.
-
-Issues faced
-
-Took some time to understand the relationship between parent and child classes and how inherited members are accessed.
-
-================================================================
-
-Day 13 - 01 Oct 2026
-
-What I have done
-
-Studied Object Modelling in Java and understood how classes, objects, attributes and behaviours are represented.
-
-Continued practicing OOP concepts and worked on different object modelling examples.
-
-What I will do
-
-Start learning Inheritance and understand how classes can be related to each other.
-
-Issues faced
-
-Initially found it a little difficult to convert a real-world problem into classes, objects and their relationships.
-
-================================================================
-
-Day 12 - 30 Sep 2026
-
-What I have done
-
-Continued working on Java OOP concepts.
-
-Studied the this keyword and static members in Java.
-
-Practiced questions related to instance variables, static variables, static methods and the use of this.
-
-What I will do
-
-Continue with Object Modelling and practice more OOP-based problems.
-
-Issues faced
-
-Got confused between instance members and static members and when to use this.
-
-================================================================
-
-Day 11 - 29 Sep 2026
-
-What I have done
-
-Studied constructors in Java in more detail.
-
-Practiced constructor chaining, parameterized constructors, default constructors and different constructor-based questions.
-
-Also studied the basic IIMSTSMCR concepts related to Java classes and objects.
-
-What I will do
-
-Continue with the remaining OOP concepts and practice more questions based on constructors and object creation.
-
-Issues faced
-
-Took some time to understand constructor chaining and the order in which constructors are called.
-
-================================================================
-
-Day 10 - 28 Sep 2026
-
-What I have done
-
-Started learning Object-Oriented Programming in Java.
-
-Studied the concepts of classes and objects and understood how objects are created and used in Java.
-
-Started working with constructors and practiced some basic object creation problems.
-
-What I will do
-
-Continue studying constructors and other basic OOP concepts.
-
-Practice more questions based on classes, objects and constructors.
-
-Issues faced
-
-Initially got a little confused between a class, an object and a constructor and how they are connected.
-
-================================================================
-
-Day 09 - 26 Sep 2026
-
-What I have done
-
-Completed the Level 2 and Level 3 problems from the Java Strings assignment.
-
-What I will do
-
-Revise the Java Strings concepts and practice the important String methods and problems.
-
-Issues faced
-
-Took some time to understand and apply different String methods together while solving the higher-level problems.
-
-================================================================
-
-Day 08 - 25 Sep 2026
-
-What I have done
-
-Studied the basics and concepts of Strings in Java.
-
-Completed the Level 1 problems from the Java Strings assignment.
-
-What I will do
-
-Continue with the Java Strings assignment and complete the Level 2 and Level 3 problems.
-
-Issues faced
-
-Initially took some time to understand the different String methods and how to use them while solving problems.
-
-================================================================
-
-Day 07 - 24 Sep 2026
-
-What I have done
-
-Completed the Level 2 and Level 3 problems from the Java Methods assignment.
-
-What I will do
-
-Revise the Java Methods concepts and basics before moving on to the next topic.
-
-Issues faced
-
-Got a little confused with some method concepts while solving the higher-level problems.
-
-================================================================
-
-Day 06 - 23 Sep 2026
-
-What I have done
-
-Completed the remaining Java Arrays problems and finished the Array assignments.
-
-Started studying Methods in Java and understood the basic concepts.
-
-Solved Level 1 and Level 2 problems from the Java Methods assignment.
-
-What I will do
-
-Continue working on the remaining Java Methods problems.
-
-Practice more method-based problems to improve my understanding and coding skills.
-
-Issues faced
-
-Initially got a little confused about when to use methods and how to pass values to them while solving the problems.
-
-================================================================
-
-Day 05 - 22 Sep 2026
-
-What I have done
-
-Continued working on Java Control Flow and completed the Level 1, 2, 3 problems.
-
-Started working on Java Arrays and completed the Level 1 assignment.
-
-Practiced the problems in IntelliJ IDEA.
-
-What I will do
-
-Continue with the remaining Java Arrays problems and complete the next levels.
-
-Practice more problems to get better with arrays and improve my problem-solving.
-
-Issues faced
-
-Took some time to get comfortable with array indexing and accessing elements while solving the problems.
-
-================================================================
-
-Day 04 - 21 Sep 2026
-
-What I have done
-
-Worked on the remaining questions from Java Programming Elements.
-
-Solved 28 questions from the Java Control Flow Assignment.
-
-A few problems were still left from Level 2 and the full Level 3 of Java Control Flow, which I planned to complete during the week.
-
-What I will do
-
-Complete the remaining assignment problems and start working on the new assignments.
-
-Issues faced
-
-I was comparatively slow in finding real use cases for the switch function since it was a new concept for me.
-
-================================================================
-
-Day 03 - 19 Sep 2026
-
-What I have done
-
-Understood the concepts of loops in more detail.
-
-Implemented some of the loop types in IntelliJ IDEA.
-
-Completed 15 questions from different levels of the Java Programming Elements Assignment.
-
-What I will do
-
-Complete the remaining assignment problems.
-
-Explore some useful libraries and functions that can help further in coding.
-
-Issues faced
-
-Got confused while trying to understand how to use Math.random() for different ranges.
-
-Understood the issue and also learned about the Random library.
-
-================================================================
-
-Day 02 - 18 Sep 2026
-
-What I have done
-
-Set up the repository with main, develop and feature branches.
-
-Solved 5 problems on variables and data types under feature/coreProgramming > javaProgrammingElement.
-
-What I will do
-
-Complete the remaining operator problems.
-
-Start the javaControlFlow package with if-else and switch.
-
-Issues faced
-
-Was confused between Git and GitHub.
-
-================================================================
-
-Day 01 - 17 Sep 2026
-
-What I have done
-
-Started the BridgeLabz Java training and set up the basic project structure.
-
-Understood the initial workflow for completing and submitting the Java assignments.
-
-Started working on the basic Java programming concepts and practiced some introductory problems.
-
-What I will do
-
-Continue with the Java Programming Elements assignment and work on variables, data types and operators.
-
-Issues faced
-
-Initially took some time to understand the assignment structure and how to organize the solutions in the repository.
-
-================================================================
+# Bridgelabz Java Training Program
+
+Java assignments and practice problems completed as part of the BridgeLabz Training Program. Assignments are taken from Google Classroom (GCR).
+
+---
+
+## Repository Structure
+
+- main: README and daily task updates
+- develop: Empty Java project skeleton
+- feature/*: Week-wise topic branches containing solutions:
+  - feature/coreProgramming: Java Programming Elements, Control Flow, Arrays, Methods, Strings
+  - feature/object-oriented-programming: OOPs Concepts, Constructors, Inheritance, Polymorphism, Object Modelling
+  - feature/DataStructure: Searching, Sorting, Linked Lists, Stacks, Queues, Time Benchmarking
+  - feature/collectionStream: Collections Framework, Generics, Lambdas, Stream API, Regex, Exceptions
+  - feature/IO_DesignPattern_MultiThreads: Java I/O Streams, Design Patterns, Multithreading
+
+---
+
+## Daily Task Tracker
+
+| Day & Date | Topic / Focus Area | What I Have Done | What I Will Do |
+|---|---|---|---|
+| Day 35<br>29 Oct 2026 | Multithreading & Design Patterns Review | Gave the technical review on Multithreading and Design Patterns. | Will start DBMS. |
+| Day 34<br>28 Oct 2026 | Multithreading Practice | - Practiced questions on Multithreading and thread synchronization.<br>- Revised design pattern examples.<br>- Prepared for review. | Appear for Multithreading and Design Patterns review. |
+| Day 33<br>27 Oct 2026 | Multithreading Basics | - Studied basics of Multithreading using Thread class and Runnable interface.<br>- Practiced thread methods (start, run, join, sleep).<br>- Worked on simple synchronization examples. | Practice more multithreading problems. |
+| Day 32<br>26 Oct 2026 | Design Patterns | - Studied common design patterns (Singleton, Factory, Builder).<br>- Practiced examples of Adapter and Observer patterns.<br>- Understood when to apply these patterns in code. | Start learning Multithreading basics. |
+| Day 31<br>24 Oct 2026 | Regex & JUnit Testing Review | Gave the review on Regex and JUnit Testing. | Start learning Design Patterns. |
+| Day 30<br>23 Oct 2026 | Java File I/O | - Studied reading and writing files using FileInputStream and FileOutputStream.<br>- Practiced copying file contents and working with text files.<br>- Learned how to properly close file streams. | Practice more file handling questions. |
+| Day 29<br>22 Oct 2026 | Java File I/O Basics | - Started learning Java File I/O.<br>- Practiced basic file reading using FileReader and BufferedReader. | Complete Java File I/O and Character streams. |
+| Day 28<br>21 Oct 2026 | Exception Handling & Regex | - Practiced questions on Exception Handling (nested try-catch).<br>- Solved regex pattern matching problems on different strings.<br>- Started introductory Java File I/O concepts. | Complete Java File I/O assignments. |
+| Day 27<br>20 Oct 2026 | Exception Handling & Regex | - Worked on custom exception questions and exception propagation.<br>- Practiced Regular Expressions for string patterns.<br>- Continued with Java File I/O. | Complete Java File I/O and practice questions. |
+| Day 26<br>19 Oct 2026 | Exception Handling & Regex | - Solved Exception Handling questions.<br>- Practiced regex on complex strings.<br>- Started learning about Java File I/O. | Complete Java File I/O and annotations. |
+| Day 25<br>17 Oct 2026 | Stream API & Exceptions | - Solved Exception Handling questions.<br>- Completed Stream API extra practice questions. | Practice JUnit and Regex. |
+| Day 24<br>16 Oct 2026 | Collections & Generics Review | - Gave the review on Collections, Java 8 features, and Generics.<br>- Started learning about Exception Handling. | Practice Stream API on questions. |
+| Day 23<br>15 Oct 2026 | Java 8 Features & Streams | - Completed Java 8 features, enhancements, and Streams.<br>- Practiced filter, map, and collect with streams. | Start new week topics. |
+| Day 22<br>14 Oct 2026 | Generics & Wildcards | - Implemented wildcards in questions.<br>- Completed theoretical concepts of Collections. | Complete questions on Collections DPP. |
+| Day 21<br>13 Oct 2026 | Generics Theory | - Learned theoretical concepts of generics, wildcards, and their use. | Learn about collections and implementation of generics. |
+| Day 20<br>12 Oct 2026 | Collections & Generics | - Studied Collections, generics, wildcards, and related concepts. | Complete questions on Collections DPP. |
+| Day 19<br>10 Oct 2026 | Linear DSA Revision | - Revised all topics of linear data structures.<br>- Started learning about Collection framework. | Complete tasks assigned for Collection framework. |
+| Day 18<br>08 Oct 2026 | HashMaps & Sorting | - Completed HashMaps.<br>- Completed a few sorting problems. | Complete remaining concepts of Data Structures. |
+| Day 17<br>07 Oct 2026 | Searching & String Buffers | - Completed StringBuilder and StringBuffer.<br>- Completed BufferedReader, FileReader, and InputStreamReader. | Complete Searching, 3 sorting problems, and HashMap. |
+| Day 16<br>06 Oct 2026 | Linked Lists Concepts | - Learned in-depth concepts in Linked List.<br>- Revised all OOP concepts again. | Complete Linked List practice problems. |
+| Day 15<br>05 Oct 2026 | Data Structures Start | - Started learning Data Structures.<br>- Implemented LinkedList without using libraries. | Complete Linked List practice problems. |
+| Day 14<br>03 Oct 2026 | OOP Revision | - Revised every concept of OOP again.<br>- Did practice questions on association, aggregation, and composition. | Explore DSA topics and start practicing. |
+| Holiday<br>02 Oct 2026 | OOP Practice | - Completed tasks on Object-Oriented Programming. | Explore new methods and class diagrams. |
+| Day 13<br>01 Oct 2026 | Inheritance & Polymorphism | - Completed Inheritance.<br>- Understood concepts of Polymorphism, Abstraction, and Encapsulation. | Revise everything again for the review. |
+| Day 12<br>30 Sep 2026 | Static & Final Keywords | - Completed this, static, final, and instanceof keywords questions.<br>- Started aggregation and composition. | Complete problems on aggregation and composition. |
+| Day 11<br>29 Sep 2026 | Constructors & Access Modifiers | - Completed Constructors, Access Modifiers, and internal working.<br>- Practiced constructor chaining. | Revise everything for the review. |
+| Day 10<br>28 Sep 2026 | Strings Level 3 | - Completed Level 3 of Java Strings. | Revise concepts up to Level 3 of Strings. |
+| Day 09<br>27 Sep 2026 | Strings Level 2 Revision | - Revised concepts up to Java Strings Level 2. | Complete Level 3 of Java Strings. |
+| Day 08<br>26 Sep 2026 | Strings Level 2 | - Completed Level 2 of Java Strings. | Complete Level 3 of Java Strings. |
+| Day 07<br>25 Sep 2026 | Strings Level 1 | - Completed Level 1 of Java Strings. | Complete Level 2 and Level 3 of Java Strings. |
+| Day 06<br>24 Sep 2026 | Java Methods Level 3 | - Completed all Java Methods up to Level 3 and pushed to GitHub. | Move to assignment problems from Java Strings. |
+| Day 05<br>23 Sep 2026 | Java Arrays & Methods L1-L2 | - Completed all Java Arrays.<br>- Completed Level 1 and 2 of Java Methods and pushed to GitHub. | Move to assignment problems from Java Methods. |
+| Day 04<br>22 Sep 2026 | Java Arrays Level 1 & 2 | - Worked on Java Arrays.<br>- Completed 1 question in Level 1 and 4 in Level 2. | Complete remaining assignment problems. |
+| Day 03<br>21 Sep 2026 | Control Flow & Switch | - Worked on Java programming elements remaining questions.<br>- Solved 28 questions from Java Control Flow assignment. | Complete remaining assignment problems. |
+| Day 02<br>19 Sep 2026 | Loops & Math.random | - Understood concepts of loops in more detail.<br>- Implemented loop types in IntelliJ IDEA.<br>- Completed 15 questions from Java Programming Elements. | Complete remaining assignment problems. |
+| Day 01<br>18 Sep 2026 | Repository Setup & Basics | - Set up repository with main, develop, and feature branches.<br>- Solved 5 problems on variables and data types (feature/coreProgramming). | Complete remaining operator problems; start javaControlFlow. |
