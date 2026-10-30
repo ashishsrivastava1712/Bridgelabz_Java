@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Pausing The Main Using SLEEP8
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Pausing The Main Using SLEEP8.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 

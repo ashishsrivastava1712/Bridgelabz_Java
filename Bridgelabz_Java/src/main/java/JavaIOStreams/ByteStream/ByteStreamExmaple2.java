@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Byte Stream Exmaple2
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Byte Stream Exmaple2.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ByteStream;
 
 
@@ -7,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ByteStreamExmaple2 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         String fileName = "Outputfiles/ByteStreamExmaple2output.txt";

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Decorator Pattern
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Decorator Pattern.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.DecoratorPattern;
 
 interface Coffee

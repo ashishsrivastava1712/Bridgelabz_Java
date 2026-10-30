@@ -1,9 +1,18 @@
+/*
+ * Question: Implementation and demonstration of Two Thread Sum Mess12
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Two Thread Sum Mess12.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class TwoThreadSumMess12 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws InterruptedException {
 
         AtomicInteger sum = new AtomicInteger(1);

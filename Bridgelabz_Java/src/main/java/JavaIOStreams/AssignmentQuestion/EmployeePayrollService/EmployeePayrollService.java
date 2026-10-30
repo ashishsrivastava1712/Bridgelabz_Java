@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Employee Payroll Service
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Employee Payroll Service.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.AssignmentQuestion.EmployeePayrollService;
 
 
@@ -11,6 +19,7 @@ import java.io.IOException;
 
 public class EmployeePayrollService {
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         String inputPath = "InputFiles/employees.txt";

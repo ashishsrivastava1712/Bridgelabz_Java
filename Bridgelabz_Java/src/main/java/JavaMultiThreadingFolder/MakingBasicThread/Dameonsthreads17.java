@@ -1,7 +1,16 @@
+/*
+ * Question: Implementation and demonstration of Dameonsthreads17
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Dameonsthreads17.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 public class Dameonsthreads17 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws InterruptedException {
 
         Thread background = new Thread(() -> {

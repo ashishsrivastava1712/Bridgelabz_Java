@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Convert From Input Stream To Reader Stream
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Convert From Input Stream To Reader Stream.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ConvertFromInputStreamToReaderStream;
 
 
@@ -12,6 +20,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 public class ConvertFromInputStreamToReaderStream {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         String fileName = "Outputfiles/unicode.txt";

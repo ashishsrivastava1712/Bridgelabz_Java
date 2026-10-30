@@ -1,12 +1,22 @@
+/*
+ * Question: Implementation and demonstration of Thread Using Runnable Only4
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Thread Using Runnable Only4.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 
 public class ThreadUsingRunnableOnly4 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         Runnable task = new Runnable() {
             @Override
+            // Method to handle run operations
             public void run() {
                 System.out.println("Hello from A");
                 System.out.println("Hello from B");

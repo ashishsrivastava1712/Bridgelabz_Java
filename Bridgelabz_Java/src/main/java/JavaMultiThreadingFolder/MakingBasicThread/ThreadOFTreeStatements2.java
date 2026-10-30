@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Thread OF Tree Statements2
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Thread OF Tree Statements2.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 public class ThreadOFTreeStatements2 

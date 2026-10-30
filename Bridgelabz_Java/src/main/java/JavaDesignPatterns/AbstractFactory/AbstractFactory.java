@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Abstract Factory
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Abstract Factory.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.AbstractFactory;
 interface Button
 {

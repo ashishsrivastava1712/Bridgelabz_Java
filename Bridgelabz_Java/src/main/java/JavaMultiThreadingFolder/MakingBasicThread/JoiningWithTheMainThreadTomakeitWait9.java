@@ -1,8 +1,17 @@
+/*
+ * Question: Implementation and demonstration of Joining With The Main Thread Tomakeit Wait9
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Joining With The Main Thread Tomakeit Wait9.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 
 public class JoiningWithTheMainThreadTomakeitWait9 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         Thread t = new Thread(() -> {
             for (int i = 1; i <= 5; i++) {

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of File Input Stream Testand File Reader
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for File Input Stream Testand File Reader.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.FileInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;

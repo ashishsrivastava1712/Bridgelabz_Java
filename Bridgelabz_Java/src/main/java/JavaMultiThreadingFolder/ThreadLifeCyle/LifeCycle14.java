@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Life Cycle14
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Life Cycle14.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.ThreadLifeCyle;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -6,15 +14,19 @@ class Student {
     public Student(int sum) {
         this.sum = sum;
     }
+    // Method to handle get sum operations
     public int getSum() {
         return sum;
     }
+    // Method to handle set sum operations
     public void setSum(int sum) {
         this.sum = sum;
     }
+    // Method to handle add to sum operations
     public void addToSum(int value) {
         this.sum += value;
     }
+    // Method to handle multiply sum operations
     public void multiplySum(int value) {
         this.sum *= value;
     }

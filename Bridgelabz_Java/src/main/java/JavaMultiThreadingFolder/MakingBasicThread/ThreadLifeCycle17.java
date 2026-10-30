@@ -1,8 +1,17 @@
+/*
+ * Question: Implementation and demonstration of Thread Life Cycle17
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Thread Life Cycle17.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 
 public class ThreadLifeCycle17 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws InterruptedException {
 
         Thread t = new Thread(() -> {

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of My Own Buffer Copying Files
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for My Own Buffer Copying Files.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ByteStream;
 
 import java.io.FileInputStream;

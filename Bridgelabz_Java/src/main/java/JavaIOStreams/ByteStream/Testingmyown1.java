@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Testingmyown1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Testingmyown1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ByteStream;
 import java.io.FileInputStream;
 import java.io.IOException;

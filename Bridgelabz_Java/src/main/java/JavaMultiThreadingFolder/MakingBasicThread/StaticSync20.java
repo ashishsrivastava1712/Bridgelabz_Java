@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Static Sync20
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Static Sync20.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 public class StaticSync20 

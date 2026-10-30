@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of File Readerand File Input Stream
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for File Readerand File Input Stream.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ByteStream;
 import java.io.FileInputStream;
 import java.io.FileReader;

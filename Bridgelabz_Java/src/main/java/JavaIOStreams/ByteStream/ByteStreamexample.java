@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Byte Streamexample
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Byte Streamexample.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.ByteStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Characterstreams File Readerand File Writer
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Characterstreams File Readerand File Writer.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.CharacterstreamsFileReaderandFileWriter;
 
 
@@ -10,6 +18,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 public class CharacterstreamsFileReaderandFileWriter {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         String fileName = "Outputfiles/CharacterstreamsFileReaderandFileWriter.txt";

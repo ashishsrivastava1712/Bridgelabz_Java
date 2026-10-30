@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Unicode Example
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Unicode Example.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.UnicodeExample;
 
 
@@ -5,6 +13,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 public class UnicodeExample {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws IOException {
         String text;
         // Write text using UTF-8

@@ -1,7 +1,16 @@
+/*
+ * Question: Implementation and demonstration of Factorymethord
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Factorymethord.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.FactorymethordPatter;
 /*
  
 public class Main {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         String type = "EMAIL";
 

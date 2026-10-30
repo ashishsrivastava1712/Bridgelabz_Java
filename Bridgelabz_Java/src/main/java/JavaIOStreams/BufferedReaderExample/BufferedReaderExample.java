@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Buffered Reader Example
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Buffered Reader Example.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.BufferedReaderExample;
 
 import java.io.FileInputStream;

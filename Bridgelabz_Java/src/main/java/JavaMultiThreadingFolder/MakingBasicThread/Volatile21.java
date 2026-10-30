@@ -1,9 +1,18 @@
+/*
+ * Question: Implementation and demonstration of Volatile21
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Volatile21.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 
 public class Volatile21 {
     static  boolean running = true;
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws InterruptedException {
 
         Thread worker = new Thread(() -> {

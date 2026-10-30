@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Address Book
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Address Book.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaIOStreams.AssignmentQuestion.AddressBook;
 
 
@@ -28,6 +36,7 @@ public class AddressBook {
             this.city = city;
         }
 
+        // Method to handle to string operations
         public String toString() {
             return "ID: " + id
                     + " | Name: " + name
@@ -36,6 +45,7 @@ public class AddressBook {
                     + " | City: " + city;
         }
 
+        // Method to handle to file format operations
         String toFileFormat() {
             return id + "|" + name + "|" + phone
                     + "|" + email + "|" + city;
@@ -57,6 +67,7 @@ public class AddressBook {
     private static final Scanner scanner =
             new Scanner(System.in);
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         File outputDirectory = new File("Outputfiles");
@@ -119,6 +130,7 @@ public class AddressBook {
         scanner.close();
     }
 
+    // Method to handle read int operations
     private static int readInt() {
         while (true) {
             try {
@@ -133,6 +145,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle load contacts operations
     private static void loadContacts() {
 
         // Prefer saved contacts from previous runs.
@@ -206,6 +219,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle add contact operations
     private static void addContact() {
 
         System.out.print("Enter contact ID: ");
@@ -251,6 +265,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle view contacts operations
     private static void viewContacts() {
 
         if (contacts.isEmpty()) {
@@ -265,6 +280,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle search contact operations
     private static void searchContact() {
 
         System.out.println("Search by:");
@@ -304,6 +320,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle delete contact operations
     private static void deleteContact() {
 
         System.out.print("Enter ID of contact to delete: ");
@@ -325,6 +342,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle find by id operations
     private static Contact findById(int id) {
 
         for (Contact contact : contacts) {
@@ -336,6 +354,7 @@ public class AddressBook {
         return null;
     }
 
+    // Method to handle save contacts operations
     private static boolean saveContacts() {
 
         try (BufferedWriter writer =
@@ -357,6 +376,7 @@ public class AddressBook {
         }
     }
 
+    // Method to handle generate report operations
     private static void generateReport() {
 
         try (BufferedWriter writer =

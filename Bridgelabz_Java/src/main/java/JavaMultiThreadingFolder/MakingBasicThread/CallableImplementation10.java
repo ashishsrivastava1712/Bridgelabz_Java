@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Callable Implementation10
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Callable Implementation10.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 import java.util.concurrent.Callable;
 public class CallableImplementation10 

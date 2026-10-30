@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Thead Using Run3
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Thead Using Run3.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.MakingBasicThread;
 
 public class TheadUsingRun3 

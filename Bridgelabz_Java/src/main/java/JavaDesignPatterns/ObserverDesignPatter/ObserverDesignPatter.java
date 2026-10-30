@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Observer Design Patter
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Observer Design Patter.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.ObserverDesignPatter;
 import java.util.ArrayList;
 import java.util.List;

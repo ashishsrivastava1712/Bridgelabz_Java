@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Atomic Student16
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Atomic Student16.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaMultiThreadingFolder.AtmoicStudent;
 
 
@@ -10,20 +18,24 @@ class Student {
         this.sum = new AtomicInteger(sum);
     }
 
+    // Method to handle get sum operations
     public int getSum() {
         return sum.get();
     }
 
+    // Method to handle add to sum operations
     public void addToSum(int value) {
         sum.addAndGet(value);
     }
 
+    // Method to handle multiply sum operations
     public void multiplySum(int value) {
         sum.updateAndGet(current -> current * value);
     }
 }
 
 public class AtomicStudent16 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) throws InterruptedException {
         Student s = new Student(1);
 

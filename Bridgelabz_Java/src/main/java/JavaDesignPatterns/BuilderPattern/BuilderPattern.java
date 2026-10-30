@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Builder Pattern
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Builder Pattern.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.BuilderPattern;
 
 class Computer

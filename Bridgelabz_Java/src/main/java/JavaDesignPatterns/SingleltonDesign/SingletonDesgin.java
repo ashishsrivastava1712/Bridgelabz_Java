@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Singleton Desgin
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Singleton Desgin.
+ *
+ * Author: Ashish Srivastava
+ * Date: 28 - 10 - 2026
+ */
 package JavaDesignPatterns.SingleltonDesign;
 class Config
 {
