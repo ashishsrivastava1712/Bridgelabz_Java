@@ -1,8 +1,17 @@
+/*
+ * Question: Implementation and demonstration of Matcherand Find
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Matcherand Find.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.JavaRegexOneclassquestion;
 
 import java.util.regex.*;
 
 public class MatcherandFind {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("\\d+");
 

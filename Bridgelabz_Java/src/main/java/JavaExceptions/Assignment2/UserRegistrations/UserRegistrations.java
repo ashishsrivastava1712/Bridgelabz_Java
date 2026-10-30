@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of User Registrations
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for User Registrations.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment2.UserRegistrations;
 
 
@@ -47,6 +55,7 @@ class UserService {
 }
 
 public class UserRegistrations {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         UserService service = new UserService();
 

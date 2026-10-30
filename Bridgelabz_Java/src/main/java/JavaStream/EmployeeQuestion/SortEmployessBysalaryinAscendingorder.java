@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Sort Employess Bysalaryin Ascendingorder
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Sort Employess Bysalaryin Ascendingorder.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;

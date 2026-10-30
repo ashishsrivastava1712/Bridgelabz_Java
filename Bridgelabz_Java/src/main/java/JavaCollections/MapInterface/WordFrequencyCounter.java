@@ -20,6 +20,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class WordFrequencyCounter {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Create a Scanner to read the file path.
         Scanner sc = new Scanner(System.in);

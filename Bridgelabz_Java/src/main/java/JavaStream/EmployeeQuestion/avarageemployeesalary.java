@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of avarageemployeesalary
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for avarageemployeesalary.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;

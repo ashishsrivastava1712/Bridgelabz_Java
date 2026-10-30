@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic Enum Implementation
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic Enum Implementation.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericMethord.GenericMethord3;
 
 public class GenericEnumImplementation

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Address Book System
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Address Book System.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package Java8Assignments.AddressBookSystem;
 
 
@@ -20,18 +28,22 @@ class Contact {
         this.phone = phone;
     }
 
+    // Method to handle get first name operations
     public String getFirstName() {
         return firstName;
     }
 
+    // Method to handle get city operations
     public String getCity() {
         return city;
     }
 
+    // Method to handle get state operations
     public String getState() {
         return state;
     }
 
+    // Method to handle to string operations
     public String toString() {
         return firstName + " " + lastName
                 + " | " + city + " | " + state
@@ -40,6 +52,7 @@ class Contact {
 }
 
 public class AddressBookSystem {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         List<Contact> contacts = new ArrayList<>();

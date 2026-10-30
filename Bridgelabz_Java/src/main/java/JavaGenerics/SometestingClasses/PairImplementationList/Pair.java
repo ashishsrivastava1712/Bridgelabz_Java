@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Pair
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Pair.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.PairImplementationList;
 import java.util.*;
 public class Pair<K,V>

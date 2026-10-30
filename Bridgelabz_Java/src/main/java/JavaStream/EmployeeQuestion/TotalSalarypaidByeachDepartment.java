@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Total Salarypaid Byeach Department
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Total Salarypaid Byeach Department.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;

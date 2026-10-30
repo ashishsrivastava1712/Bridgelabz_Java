@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Try With Multiple Resource
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Try With Multiple Resource.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment2.TryWithMultipleResource;
 
 
@@ -8,6 +16,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class TryWithMultipleResource {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         try (
             BufferedReader reader1 =

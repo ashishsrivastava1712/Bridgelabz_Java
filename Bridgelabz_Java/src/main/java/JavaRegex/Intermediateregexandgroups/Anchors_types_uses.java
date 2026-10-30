@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Anchors_types_uses
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Anchors_types_uses.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 /**
  * Anchors are used to match a position within a string. 
  * They do not consume any characters in the string, but rather assert whether a match is possible at a given position.

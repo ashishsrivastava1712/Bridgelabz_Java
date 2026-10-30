@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic Wildcardtest3
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic Wildcardtest3.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericMethord.GenericWildcards.GenericWildcardtest3;
 import java.util.ArrayList;
 public class GenericWildcardtest3 

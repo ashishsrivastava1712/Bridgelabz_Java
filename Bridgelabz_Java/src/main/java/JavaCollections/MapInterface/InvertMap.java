@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 public class InvertMap {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Create the original map.
         Map<String, Integer> map = new HashMap<>();

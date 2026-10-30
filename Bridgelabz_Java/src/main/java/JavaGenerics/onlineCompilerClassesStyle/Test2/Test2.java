@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Test2
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Test2.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.onlineCompilerClassesStyle.Test2;
 import java.util.*;  
 

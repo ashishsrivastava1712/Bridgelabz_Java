@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of salarygreaterthan70k
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for salarygreaterthan70k.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;

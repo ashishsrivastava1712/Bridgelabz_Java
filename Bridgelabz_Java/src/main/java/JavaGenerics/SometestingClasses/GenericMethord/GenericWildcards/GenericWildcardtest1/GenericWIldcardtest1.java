@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic W Ildcardtest1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic W Ildcardtest1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericMethord.GenericWildcards.GenericWildcardtest1;
 import java.util.ArrayList;
 public class GenericWIldcardtest1 

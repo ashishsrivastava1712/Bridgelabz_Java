@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MergeTwoMaps {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Create the first map.
         Map<String, Integer> map1 = new HashMap<>();

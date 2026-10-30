@@ -19,6 +19,7 @@ import java.util.Map;
 
 public class FindFrequency {
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         List<String> list = new ArrayList<>();

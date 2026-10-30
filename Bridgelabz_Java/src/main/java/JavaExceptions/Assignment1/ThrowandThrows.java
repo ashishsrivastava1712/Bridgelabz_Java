@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Throwand Throws
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Throwand Throws.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment1;
 
 public class ThrowandThrows {
@@ -13,6 +21,7 @@ public class ThrowandThrows {
         return amount * rate * years / 100.0;
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         try {
             double interest = calculateInterest(10000, 5, 2);

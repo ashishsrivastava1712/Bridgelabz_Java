@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Greedy Reluctant Possisive
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Greedy Reluctant Possisive.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 import java.util.regex.*;
 public class GreedyReluctantPossisive 

@@ -14,6 +14,7 @@ package JavaCollections.ShoppingCart;
 import java.util.*;
 
 public class ShoppingCart {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Store product prices in a HashMap.
         Map<String, Double> prices = new HashMap<>();

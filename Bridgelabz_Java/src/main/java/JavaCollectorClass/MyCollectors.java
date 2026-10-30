@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of My Collectors
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for My Collectors.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaCollectorClass;
 import java.util.*;
 import java.util.function.*;

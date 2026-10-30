@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Heighestand Lowestsalary
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Heighestand Lowestsalary.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Custom Excetption2
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Custom Excetption2.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.CustomExceptions.CustomException2;
 import java.io.*;
 public class CustomExcetption2 

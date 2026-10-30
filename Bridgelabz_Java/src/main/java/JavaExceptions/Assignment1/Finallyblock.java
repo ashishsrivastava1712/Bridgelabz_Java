@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Finallyblock
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Finallyblock.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment1;
 
 
@@ -5,6 +13,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class Finallyblock {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter numerator: ");

@@ -1,9 +1,18 @@
+/*
+ * Question: Implementation and demonstration of Groupregex
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Groupregex.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 
 
 import java.util.regex.*;
 
 public class Groupregex {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         String input = "Order ID: ORD-2026-145";
 

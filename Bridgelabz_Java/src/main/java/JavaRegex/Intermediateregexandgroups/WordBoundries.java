@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Word Boundries
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Word Boundries.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 import java.util.regex.*;
 public class WordBoundries 

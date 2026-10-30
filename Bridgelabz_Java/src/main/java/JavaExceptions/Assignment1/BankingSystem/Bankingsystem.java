@@ -1,4 +1,13 @@
+/*
+ * Question: Implementation and demonstration of Bankingsystem
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Bankingsystem.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment1.BankingSystem;
+// Main execution method to run and demonstrate the solution
 public class Bankingsystem {    public static void main(String[] args) {
         BankAccount account = new BankAccount(5000);
 

@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.Iterator;
 
 public class NthElementFromEnd {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<>();
 

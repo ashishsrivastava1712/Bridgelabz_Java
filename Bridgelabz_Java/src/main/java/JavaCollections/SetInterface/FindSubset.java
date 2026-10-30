@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Find Subset
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Find Subset.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaCollections.SetInterface;
 
 import java.util.Set;
@@ -5,6 +13,7 @@ import java.util.HashSet;
 import java.util.Arrays;
 
 public class FindSubset {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3, 4));
         Set<Integer> set2 = new HashSet<>(Arrays.asList(2, 3));

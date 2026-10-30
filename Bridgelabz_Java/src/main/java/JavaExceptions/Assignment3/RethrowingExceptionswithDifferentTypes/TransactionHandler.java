@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Transaction Handler
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Transaction Handler.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment3.RethrowingExceptionswithDifferentTypes;
 
 class TransactionException extends Exception {
@@ -46,6 +54,7 @@ public class TransactionHandler {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         TransactionHandler handler = new TransactionHandler();
 

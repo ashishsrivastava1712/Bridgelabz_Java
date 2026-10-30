@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Second Heightest Salary
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Second Heightest Salary.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;

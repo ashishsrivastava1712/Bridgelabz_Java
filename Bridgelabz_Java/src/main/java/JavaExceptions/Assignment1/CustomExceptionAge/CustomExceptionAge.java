@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Custom Exception Age
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Custom Exception Age.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment1.CustomExceptionAge;
 
 
@@ -10,12 +18,14 @@ class InvalidAgeException extends Exception {
 }
 
 public class CustomExceptionAge {
+    // Method to handle validate age operations
     static void validateAge(int age) throws InvalidAgeException {
         if (age < 18) {
             throw new InvalidAgeException("Age must be 18 or above");
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter age: ");

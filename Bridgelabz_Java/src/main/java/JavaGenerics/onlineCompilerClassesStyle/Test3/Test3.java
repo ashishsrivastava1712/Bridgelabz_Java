@@ -1,8 +1,17 @@
+/*
+ * Question: Implementation and demonstration of Test3
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Test3.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.onlineCompilerClassesStyle.Test3;
 
 import java.util.*;
 
 public class Test3 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         Container<String> c1 = new GenericContainer<>();

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Java Regex1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Java Regex1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex;
 import java.util.regex.*;
 public class JavaRegex1 

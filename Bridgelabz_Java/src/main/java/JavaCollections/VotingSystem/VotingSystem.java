@@ -13,6 +13,7 @@ package JavaCollections.VotingSystem;
 import java.util.*;
 
 public class VotingSystem {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Store sample votes in the order they were cast.
         List<String> votes = Arrays.asList(

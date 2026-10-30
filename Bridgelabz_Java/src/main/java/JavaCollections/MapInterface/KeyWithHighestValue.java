@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class KeyWithHighestValue {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Create a map with sample values.
         Map<String, Integer> map = new HashMap<>();

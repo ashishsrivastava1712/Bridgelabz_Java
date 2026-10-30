@@ -28,10 +28,12 @@ abstract class JobRole {
         this.requiredSkill = requiredSkill;
     }
 
+    // Method to handle get role name operations
     public String getRoleName() {
         return roleName;
     }
 
+    // Method to handle get required skill operations
     public String getRequiredSkill() {
         return requiredSkill;
     }
@@ -73,6 +75,7 @@ class Resume<T extends JobRole> {
         this.experienceYears = experienceYears;
     }
 
+    // Method to handle get candidate name operations
     public String getCandidateName() {
         return candidateName;
     }
@@ -81,14 +84,17 @@ class Resume<T extends JobRole> {
         return jobRole;
     }
 
+    // Method to handle get skills operations
     public List<String> getSkills() {
         return skills;
     }
 
+    // Method to handle get experience years operations
     public int getExperienceYears() {
         return experienceYears;
     }
 
+    // Method to handle display operations
     public void display() {
         System.out.println("Candidate: " + candidateName);
         System.out.println("Applied Role: " + jobRole.getRoleName());
@@ -140,6 +146,7 @@ public class AIResumeScreeningSystem {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Create resumes with skills and experience.

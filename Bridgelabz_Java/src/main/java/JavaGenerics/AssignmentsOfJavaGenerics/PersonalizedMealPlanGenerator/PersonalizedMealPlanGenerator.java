@@ -25,10 +25,12 @@ interface MealPlan {
 
 // Vegetarian meal plan.
 class VegetarianMeal implements MealPlan {
+    // Method to handle get category operations
     public String getCategory() {
         return "Vegetarian";
     }
 
+    // Method to handle get description operations
     public String getDescription() {
         return "Vegetable curry with rice";
     }
@@ -36,10 +38,12 @@ class VegetarianMeal implements MealPlan {
 
 // Vegan meal plan.
 class VeganMeal implements MealPlan {
+    // Method to handle get category operations
     public String getCategory() {
         return "Vegan";
     }
 
+    // Method to handle get description operations
     public String getDescription() {
         return "Lentil bowl with vegetables";
     }
@@ -47,10 +51,12 @@ class VeganMeal implements MealPlan {
 
 // Keto meal plan.
 class KetoMeal implements MealPlan {
+    // Method to handle get category operations
     public String getCategory() {
         return "Keto";
     }
 
+    // Method to handle get description operations
     public String getDescription() {
         return "Avocado and egg salad";
     }
@@ -58,10 +64,12 @@ class KetoMeal implements MealPlan {
 
 // High-protein meal plan.
 class HighProteinMeal implements MealPlan {
+    // Method to handle get category operations
     public String getCategory() {
         return "High-Protein";
     }
 
+    // Method to handle get description operations
     public String getDescription() {
         return "Grilled tofu with beans";
     }
@@ -81,6 +89,7 @@ class Meal<T extends MealPlan> {
         return plan;
     }
 
+    // Method to handle display operations
     public void display() {
         System.out.println("Person: " + personName);
         System.out.println("Meal Category: " + plan.getCategory());
@@ -116,6 +125,7 @@ public class PersonalizedMealPlanGenerator {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Generate meal plans for different categories.

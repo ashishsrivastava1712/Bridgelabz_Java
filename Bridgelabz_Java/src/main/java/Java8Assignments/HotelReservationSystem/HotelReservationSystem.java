@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Hotel Reservation System
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Hotel Reservation System.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package Java8Assignments.HotelReservationSystem;
 
 import java.util.*;
@@ -17,18 +25,22 @@ class Hotel {
         this.rating = rating;
     }
 
+    // Method to handle get city operations
     public String getCity() {
         return city;
     }
 
+    // Method to handle get price per night operations
     public double getPricePerNight() {
         return pricePerNight;
     }
 
+    // Method to handle get rating operations
     public double getRating() {
         return rating;
     }
 
+    // Method to handle to string operations
     public String toString() {
         return name + " | " + city
                 + " | Rs." + pricePerNight
@@ -37,6 +49,7 @@ class Hotel {
 }
 
 public class HotelReservationSystem {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         List<Hotel> hotels = Arrays.asList(

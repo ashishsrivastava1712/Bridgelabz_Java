@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Pattern Syntax Exception
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Pattern Syntax Exception.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.JavaRegexOneclassquestion;
 import java.util.regex.*;
 public class PatternSyntaxException 

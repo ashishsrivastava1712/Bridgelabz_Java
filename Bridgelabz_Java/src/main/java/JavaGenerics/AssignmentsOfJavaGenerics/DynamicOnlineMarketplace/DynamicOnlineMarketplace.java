@@ -24,6 +24,7 @@ interface ProductCategory {
 
 // Category for books.
 class BookCategory implements ProductCategory {
+    // Method to handle get category name operations
     public String getCategoryName() {
         return "Books";
     }
@@ -31,6 +32,7 @@ class BookCategory implements ProductCategory {
 
 // Category for clothing.
 class ClothingCategory implements ProductCategory {
+    // Method to handle get category name operations
     public String getCategoryName() {
         return "Clothing";
     }
@@ -38,6 +40,7 @@ class ClothingCategory implements ProductCategory {
 
 // Category for gadgets.
 class GadgetCategory implements ProductCategory {
+    // Method to handle get category name operations
     public String getCategoryName() {
         return "Gadgets";
     }
@@ -57,14 +60,17 @@ class Product<T extends ProductCategory> {
         this.category = category;
     }
 
+    // Method to handle get price operations
     public double getPrice() {
         return price;
     }
 
+    // Method to handle set price operations
     public void setPrice(double price) {
         this.price = price;
     }
 
+    // Method to handle get name operations
     public String getName() {
         return name;
     }
@@ -73,6 +79,7 @@ class Product<T extends ProductCategory> {
         return category;
     }
 
+    // Method to handle display operations
     public void display() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
@@ -86,10 +93,12 @@ class ProductCatalog {
     private List<Product<? extends ProductCategory>> products =
             new ArrayList<>();
 
+    // Method to handle add product operations
     public void addProduct(Product<? extends ProductCategory> product) {
         products.add(product);
     }
 
+    // Method to handle display products operations
     public void displayProducts() {
         for (Product<? extends ProductCategory> product : products) {
             product.display();
@@ -120,6 +129,7 @@ public class DynamicOnlineMarketplace {
                 + product.getName());
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Create products with different category types.

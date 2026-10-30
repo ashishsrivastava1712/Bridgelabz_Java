@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Rethrowing With Custom Exceptions
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Rethrowing With Custom Exceptions.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment2.RethrowingWithCustomExceptions;
 
 
@@ -32,6 +40,7 @@ class TransactionService {
 }
 
 public class RethrowingWithCustomExceptions {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         TransactionService service = new TransactionService();
 

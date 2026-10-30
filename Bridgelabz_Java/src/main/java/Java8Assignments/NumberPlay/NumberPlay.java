@@ -1,9 +1,18 @@
+/*
+ * Question: Implementation and demonstration of Number Play
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Number Play.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package Java8Assignments.NumberPlay;
 
 import java.util.*;
 import java.util.stream.*;
 
 public class NumberPlay {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         List<Integer> numbers = Arrays.asList(

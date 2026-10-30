@@ -64,6 +64,7 @@ class Electronics extends WarehouseItem {
     }
 
     @Override
+    // Method to handle display operations
     public void display() {
         super.display();
         System.out.println("Warranty: " + warrantyMonths + " months");
@@ -81,6 +82,7 @@ class Groceries extends WarehouseItem {
     }
 
     @Override
+    // Method to handle display operations
     public void display() {
         super.display();
         System.out.println("Expiry Date: " + expiryDate);
@@ -97,6 +99,7 @@ class Furniture extends WarehouseItem {
     }
 
     @Override
+    // Method to handle display operations
     public void display() {
         super.display();
         System.out.println("Material: " + material);
@@ -140,6 +143,7 @@ public class SmartWarehouseManagementSystem {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Create storage dedicated to electronics.

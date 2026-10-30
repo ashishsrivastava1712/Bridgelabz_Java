@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Throwsand Throw
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Throwsand Throw.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.JavaExceptionQuestions;
 import java.io.*;
 

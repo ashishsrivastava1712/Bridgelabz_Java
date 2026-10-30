@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Nested Try Example
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Nested Try Example.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment3.ExceptionHandlinginNestedTryBlocks;
 
 import java.io.BufferedReader;
@@ -5,6 +13,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class NestedTryExample {
+    // Method to handle read file operations
     public void readFile(String filePath) {
         try {
 
@@ -30,6 +39,7 @@ public class NestedTryExample {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         NestedTryExample example = new NestedTryExample();
         example.readFile("example.txt");

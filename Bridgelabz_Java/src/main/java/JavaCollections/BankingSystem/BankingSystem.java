@@ -28,11 +28,13 @@ public class BankingSystem {
 
         // Display the withdrawal request.
         @Override
+        // Method to handle to string operations
         public String toString() {
             return accountNumber + " requests " + amount;
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Store account numbers and balances in a HashMap.
         Map<String, Double> accounts = new HashMap<>();

@@ -26,6 +26,7 @@ abstract class CourseType {
         this.evaluationName = evaluationName;
     }
 
+    // Method to handle get evaluation name operations
     public String getEvaluationName() {
         return evaluationName;
     }
@@ -44,6 +45,7 @@ class ExamCourse extends CourseType {
     }
 
     @Override
+    // Method to handle display evaluation operations
     public void displayEvaluation() {
         System.out.println("Evaluation: " + getEvaluationName());
         System.out.println("Number of exams: " + examCount);
@@ -60,6 +62,7 @@ class AssignmentCourse extends CourseType {
     }
 
     @Override
+    // Method to handle display evaluation operations
     public void displayEvaluation() {
         System.out.println("Evaluation: " + getEvaluationName());
         System.out.println("Number of assignments: " + assignmentCount);
@@ -76,6 +79,7 @@ class ResearchCourse extends CourseType {
     }
 
     @Override
+    // Method to handle display evaluation operations
     public void displayEvaluation() {
         System.out.println("Evaluation: " + getEvaluationName());
         System.out.println("Research topic: " + researchTopic);
@@ -97,6 +101,7 @@ class Course<T extends CourseType> {
         this.courseType = courseType;
     }
 
+    // Method to handle display operations
     public void display() {
         System.out.println("Course ID: " + courseId);
         System.out.println("Course Name: " + courseName);
@@ -119,6 +124,7 @@ public class UniversityCourseManagementSystem {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Create courses with different evaluation types.

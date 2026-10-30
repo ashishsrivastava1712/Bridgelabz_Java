@@ -12,6 +12,7 @@ import java.util.*;
 
 public class ReverseList {
 
+    // Method to handle reverse list operations
     public static void reverseList(List<Integer> list) {
         int left = 0;
         int right = list.size() - 1;
@@ -26,6 +27,7 @@ public class ReverseList {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         ArrayList<Integer> arr = new ArrayList<>(

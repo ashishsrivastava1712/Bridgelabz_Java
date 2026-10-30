@@ -1,7 +1,16 @@
+/*
+ * Question: Implementation and demonstration of The Pipe Symboleandthe Questioncolon
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for The Pipe Symboleandthe Questioncolon.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 import java.util.regex.*;
 public class ThePipeSymboleandtheQuestioncolon 
 {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         String input =
             "cat, bat, rat, mat, catbat, batcat, dog, catdog, batdog";
@@ -10,6 +19,7 @@ public class ThePipeSymboleandtheQuestioncolon
         test(input, "(cat|bat)");
     }
 
+    // Method to handle test operations
     static void test(String input, String regex) {
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(input);

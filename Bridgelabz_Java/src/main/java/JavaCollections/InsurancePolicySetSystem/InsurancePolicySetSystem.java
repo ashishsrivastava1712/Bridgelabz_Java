@@ -37,6 +37,7 @@ public class InsurancePolicySetSystem {
 
         // Policies with the same policy number are considered equal.
         @Override
+        // Method to handle equals operations
         public boolean equals(Object obj) {
             if (this == obj) {
                 return true;
@@ -52,18 +53,21 @@ public class InsurancePolicySetSystem {
 
         // Generate a hash code using the policy number.
         @Override
+        // Method to handle hash code operations
         public int hashCode() {
             return Objects.hash(number);
         }
 
         // Display all policy details.
         @Override
+        // Method to handle to string operations
         public String toString() {
             return number + " | " + holder + " | " + expiry
                     + " | " + coverage + " | " + premium;
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Get today's date.
         LocalDate today = LocalDate.now();

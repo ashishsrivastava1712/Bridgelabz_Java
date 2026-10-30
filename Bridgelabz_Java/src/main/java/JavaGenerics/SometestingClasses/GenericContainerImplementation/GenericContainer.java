@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic Container
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic Container.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericContainerImplementation;
 
 public class GenericContainer<T> implements Container<T>
@@ -11,6 +19,7 @@ public class GenericContainer<T> implements Container<T>
 
     }
     @Override
+    // Method to handle added operations
     public void added(T item) {
         this.item=item;
     }

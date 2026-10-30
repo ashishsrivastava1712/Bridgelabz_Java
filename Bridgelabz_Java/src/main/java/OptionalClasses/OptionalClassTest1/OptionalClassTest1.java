@@ -1,9 +1,18 @@
 /*
+ * Question: Implementation and demonstration of Optional Class Test1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Optional Class Test1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
+/*
 Line-by-line explanation
 1. import java.util.*;
    - Imports utility classes, including Optional.
 2. public class Main {
    - Defines the Main class.
+// Method to handle get default name operations
 3. static String getDefaultName() {
    - Defines a method that returns a String.
 4. System.out.println("Creating default");
@@ -41,11 +50,13 @@ package OptionalClasses.OptionalClassTest1;
 import java.util.*;
 public class OptionalClassTest1 
 {
+    // Method to handle get default name operations
     static String getDefaultName() {
         System.out.println("Creating default");
         return "Unknown";
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         Optional<String> name = Optional.of("Ashish");
 

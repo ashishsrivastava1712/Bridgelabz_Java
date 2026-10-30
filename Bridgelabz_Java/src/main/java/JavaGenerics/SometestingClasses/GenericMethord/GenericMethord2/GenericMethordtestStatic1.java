@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic Methordtest Static1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic Methordtest Static1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericMethord.GenericMethord2;
 
 public class GenericMethordtestStatic1

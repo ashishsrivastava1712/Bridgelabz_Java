@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of If Present Orelse Employee
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for If Present Orelse Employee.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package OptionalClasses.ifPresentOrElsetest;
 
 import java.util.*;

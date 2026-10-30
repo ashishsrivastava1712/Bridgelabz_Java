@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of User Registration System
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for User Registration System.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaLambda.UserRegistrationSystem;
 
 import java.util.Scanner;
@@ -5,6 +13,7 @@ import java.util.function.Predicate;
 
 public class UserRegistrationSystem {
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

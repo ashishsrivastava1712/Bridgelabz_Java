@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Stringmatcherandfind
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Stringmatcherandfind.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 import java.util.regex.*;
 public class Stringmatcherandfind 

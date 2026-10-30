@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Math Operations
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Math Operations.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaLambda.MathOperations;
 @FunctionalInterface
 interface MathOperation {
@@ -5,6 +13,7 @@ interface MathOperation {
 }
 
 public class MathOperations {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         MathOperation addition = (a, b) -> a + b;

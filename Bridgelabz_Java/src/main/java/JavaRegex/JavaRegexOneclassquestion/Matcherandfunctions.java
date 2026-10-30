@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Matcherandfunctions
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Matcherandfunctions.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.JavaRegexOneclassquestion;
 
 import java.util.regex.Matcher;

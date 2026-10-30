@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Generic Wild Cardtest2
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Generic Wild Cardtest2.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.SometestingClasses.GenericMethord.GenericWildcards.GenericWildcardtest2;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of IT Department Emploess
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for IT Department Emploess.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 
 import java.util.Arrays;
@@ -5,6 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class ITDepartmentEmploess {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(new Employee(1, "Ashish", "IT", 4000000.0),
                 new Employee(2, "Chai", "IT", 1000000.0), new Employee(3, "Peona", "Cyber Security", 500000.0),

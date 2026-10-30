@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Arthematic Exception
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Arthematic Exception.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.JavaExceptionQuestions;
 import java.io.*;
 

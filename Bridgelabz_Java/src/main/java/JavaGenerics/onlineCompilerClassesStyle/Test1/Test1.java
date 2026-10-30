@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Test1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Test1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaGenerics.onlineCompilerClassesStyle.Test1;
 import java.util.*;
 public class Test1
@@ -40,6 +48,7 @@ public class Test1
         this.item=item;
     }
     @Override
+    // Method to handle added operations
     public void added(T item) {
         this.item=item;
     }

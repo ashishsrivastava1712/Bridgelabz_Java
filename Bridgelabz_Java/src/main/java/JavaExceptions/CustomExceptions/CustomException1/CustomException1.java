@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Custom Exception1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Custom Exception1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.CustomExceptions.CustomException1;
 import java.io.*;
 

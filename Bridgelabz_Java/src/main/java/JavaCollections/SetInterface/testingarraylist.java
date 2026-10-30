@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of testingarraylist
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for testingarraylist.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaCollections.SetInterface;
 import java.util.*;
 public class testingarraylist

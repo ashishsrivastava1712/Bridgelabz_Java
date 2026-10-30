@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Listofstringspatter
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Listofstringspatter.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaRegex.Intermediateregexandgroups;
 import java.util.regex.*;
 public class Listofstringspatter 

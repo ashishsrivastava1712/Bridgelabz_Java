@@ -37,12 +37,14 @@ public class InsurancePolicyMapSystem {
 
         // Display policy information.
         @Override
+        // Method to handle to string operations
         public String toString() {
             return number + " | " + holder + " | " + expiry
                     + " | " + coverage + " | " + premium;
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Get today's date.
         LocalDate today = LocalDate.now();

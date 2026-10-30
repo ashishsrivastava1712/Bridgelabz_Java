@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Square Of Numbes
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Square Of Numbes.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.QuestionOnlyoneclass;
 
 import java.util.Arrays;

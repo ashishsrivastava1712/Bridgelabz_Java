@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of filtertest
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for filtertest.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package OptionalClasses.Filtertest;
 
 import java.util.*;

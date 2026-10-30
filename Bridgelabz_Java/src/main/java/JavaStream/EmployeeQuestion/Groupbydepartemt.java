@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Groupbydepartemt
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Groupbydepartemt.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 import java.util.*;
 import java.util.stream.Collectors;

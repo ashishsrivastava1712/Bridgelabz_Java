@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Assending Descending
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Assending Descending.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.QuestionOnlyoneclass;
 
 import java.util.Arrays;

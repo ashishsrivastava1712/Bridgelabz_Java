@@ -1,7 +1,16 @@
+/*
+ * Question: Implementation and demonstration of Nestedtryandcatch
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Nestedtryandcatch.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.Assignment1;
 
 
 public class Nestedtryandcatch {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         int[] arr = {20, 40, 60};
         int index = 1;

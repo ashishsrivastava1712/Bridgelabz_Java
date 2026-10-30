@@ -1,5 +1,14 @@
+/*
+ * Question: Implementation and demonstration of Number Format Exce
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Number Format Exce.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaExceptions.JavaExceptionQuestions;
 public class NumberFormatExce {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         String input = "Ashish";
 

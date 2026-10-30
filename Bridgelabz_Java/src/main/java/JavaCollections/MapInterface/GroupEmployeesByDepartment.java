@@ -30,11 +30,13 @@ public class GroupEmployeesByDepartment {
 
         // Return the employee's name when the object is printed.
         @Override
+        // Method to handle to string operations
         public String toString() {
             return name;
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         // Create a list to store employee objects.
         List<Employee> employees = new ArrayList<>();

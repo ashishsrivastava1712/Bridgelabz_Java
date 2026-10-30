@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Java Stream1
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Java Stream1.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.JavaStream1;
 
 import java.util.Arrays;

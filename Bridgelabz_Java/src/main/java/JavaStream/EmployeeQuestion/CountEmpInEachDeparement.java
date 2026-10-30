@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Count Emp In Each Deparement
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Count Emp In Each Deparement.
+ *
+ * Author: Ashish Srivastava
+ * Date: 24 - 10 - 2026
+ */
 package JavaStream.EmployeeQuestion;
 import java.util.*;
 import java.util.stream.Collectors;
