@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of prefixsum
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for prefixsum.
+ *
+ * Author: Ashish Srivastava
+ * Date: 16 - 10 - 2026
+ */
 package JavaStacksandQueues;
 import java.util.*;
 public class prefixsum {
@@ -29,6 +37,7 @@ public class prefixsum {
         }
         return result;
     }
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
 
         // Create a sample integer array.

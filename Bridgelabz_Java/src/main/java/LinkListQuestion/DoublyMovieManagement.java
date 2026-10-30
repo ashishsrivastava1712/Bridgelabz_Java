@@ -26,6 +26,7 @@ class MovieNode {
 class MovieList {
     private MovieNode head, tail;
 
+    // Method to handle add beginning operations
     void addBeginning(String t, String d, int y, double r) {
         MovieNode x = new MovieNode(t, d, y, r);
         if (head == null)
@@ -37,6 +38,7 @@ class MovieList {
         }
     }
 
+    // Method to handle add end operations
     void addEnd(String t, String d, int y, double r) {
         MovieNode x = new MovieNode(t, d, y, r);
         if (tail == null)
@@ -48,6 +50,7 @@ class MovieList {
         }
     }
 
+    // Method to handle add position operations
     void addPosition(int p, String t, String d, int y, double r) {
         if (p <= 1 || head == null) {
             addBeginning(t, d, y, r);
@@ -77,6 +80,7 @@ class MovieList {
         return null;
     }
 
+    // Method to handle remove operations
     void remove(String t) {
         MovieNode x = searchTitle(t);
         if (x == null)
@@ -91,40 +95,47 @@ class MovieList {
             tail = x.prev;
     }
 
+    // Method to handle search director operations
     void searchDirector(String d) {
         for (MovieNode c = head; c != null; c = c.next)
             if (c.director.equalsIgnoreCase(d))
                 show(c);
     }
 
+    // Method to handle search rating operations
     void searchRating(double r) {
         for (MovieNode c = head; c != null; c = c.next)
             if (c.rating == r)
                 show(c);
     }
 
+    // Method to handle update rating operations
     void updateRating(String t, double r) {
         MovieNode x = searchTitle(t);
         if (x != null)
             x.rating = r;
     }
 
+    // Method to handle forward operations
     void forward() {
         for (MovieNode c = head; c != null; c = c.next)
             show(c);
     }
 
+    // Method to handle reverse operations
     void reverse() {
         for (MovieNode c = tail; c != null; c = c.prev)
             show(c);
     }
 
+    // Method to handle show operations
     void show(MovieNode x) {
         System.out.println(x.title + " | " + x.director + " | " + x.year + " | " + x.rating);
     }
 }
 
 class DoublyMovieManagement {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         MovieList m = new MovieList();
         m.addBeginning("Inception", "Nolan", 2010, 8.8);

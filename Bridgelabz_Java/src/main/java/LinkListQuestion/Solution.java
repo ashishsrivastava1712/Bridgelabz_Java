@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Solution
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Solution.
+ *
+ * Author: Ashish Srivastava
+ * Date: 16 - 10 - 2026
+ */
 package LinkListQuestion;
 import java.util.Scanner;
 
@@ -88,6 +96,7 @@ public class Solution {
         return head;
     }
     
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         Node head =null;
         Scanner sc=new Scanner(System.in);

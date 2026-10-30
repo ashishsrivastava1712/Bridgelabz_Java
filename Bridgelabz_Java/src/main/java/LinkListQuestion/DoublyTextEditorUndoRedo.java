@@ -29,6 +29,7 @@ class TextHistory {
         size = 1;
     }
 
+    // Method to handle add operations
     void add(String text) {
         current.next = null;
         tail = current;
@@ -44,22 +45,26 @@ class TextHistory {
         }
     }
 
+    // Method to handle undo operations
     void undo() {
         if (current != head)
             current = current.prev;
     }
 
+    // Method to handle redo operations
     void redo() {
         if (current != tail)
             current = current.next;
     }
 
+    // Method to handle display operations
     void display() {
         System.out.println("Current: " + current.text);
     }
 }
 
 class DoublyTextEditorUndoRedo {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         TextHistory h = new TextHistory("");
         h.add("Hello");

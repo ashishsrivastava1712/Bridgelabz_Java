@@ -27,12 +27,14 @@ class InventoryNode {
 class InventoryList {
     private InventoryNode head;
 
+    // Method to handle add beginning operations
     void addBeginning(String n, int i, int q, double p) {
         InventoryNode x = new InventoryNode(n, i, q, p);
         x.next = head;
         head = x;
     }
 
+    // Method to handle add end operations
     void addEnd(String n, int i, int q, double p) {
         InventoryNode x = new InventoryNode(n, i, q, p);
         if (head == null) {
@@ -45,6 +47,7 @@ class InventoryList {
         c.next = x;
     }
 
+    // Method to handle add position operations
     void addPosition(int pos, String n, int i, int q, double p) {
         if (pos <= 1 || head == null) {
             addBeginning(n, i, q, p);
@@ -58,6 +61,7 @@ class InventoryList {
         c.next = x;
     }
 
+    // Method to handle remove operations
     void remove(int id) {
         if (head == null)
             return;
@@ -86,12 +90,14 @@ class InventoryList {
         return null;
     }
 
+    // Method to handle update quantity operations
     void updateQuantity(int id, int q) {
         InventoryNode x = searchId(id);
         if (x != null && q >= 0)
             x.qty = q;
     }
 
+    // Method to handle total value operations
     double totalValue() {
         double t = 0;
         for (InventoryNode c = head; c != null; c = c.next)
@@ -99,6 +105,7 @@ class InventoryList {
         return t;
     }
 
+    // Method to handle sort by price operations
     void sortByPrice(boolean asc) {
         head = mergeSort(head, asc);
     }
@@ -133,6 +140,7 @@ class InventoryList {
         return d.next;
     }
 
+    // Method to handle display operations
     void display() {
         for (InventoryNode c = head; c != null; c = c.next)
             System.out.println(c.id + " | " + c.name + " | " + c.qty + " | " + c.price);
@@ -140,6 +148,7 @@ class InventoryList {
 }
 
 class SinglyInventoryManagement {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         InventoryList i = new InventoryList();
         i.addBeginning("Keyboard", 1, 5, 1200);

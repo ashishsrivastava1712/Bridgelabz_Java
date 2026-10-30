@@ -28,6 +28,7 @@ class RoundRobinList {
     private ProcessNode head, tail;
     private int size;
 
+    // Method to handle add operations
     void add(int i, int b, int p) {
         ProcessNode x = new ProcessNode(i, b, p);
         if (head == null) {
@@ -41,6 +42,7 @@ class RoundRobinList {
         size++;
     }
 
+    // Method to handle display operations
     void display() {
         if (head == null) {
             System.out.println("Empty");
@@ -53,6 +55,7 @@ class RoundRobinList {
         } while (c != head);
     }
 
+    // Method to handle run operations
     void run(int quantum) {
         if (head == null || quantum <= 0) return;
         int time = 0;
@@ -83,6 +86,7 @@ class RoundRobinList {
         }
     }
 
+    // Method to handle remove operations
     void remove(int id) {
         if (head == null) return;
         ProcessNode p = tail, c = head;
@@ -106,6 +110,7 @@ class RoundRobinList {
 }
 
 class CircularRoundRobin {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         RoundRobinList r = new RoundRobinList();
         r.add(1, 5, 1);

@@ -26,6 +26,7 @@ class TaskNode {
 class TaskList {
     private TaskNode head, tail, current;
 
+    // Method to handle add beginning operations
     void addBeginning(int i, String n, int p, String d) {
         TaskNode x = new TaskNode(i, n, p, d);
         if (head == null) {
@@ -38,6 +39,7 @@ class TaskList {
         }
     }
 
+    // Method to handle add end operations
     void addEnd(int i, String n, int p, String d) {
         TaskNode x = new TaskNode(i, n, p, d);
         if (head == null) {
@@ -50,6 +52,7 @@ class TaskList {
         }
     }
 
+    // Method to handle add position operations
     void addPosition(int pos, int i, String n, int p, String d) {
         if (pos <= 1 || head == null) {
             addBeginning(i, n, p, d);
@@ -67,6 +70,7 @@ class TaskList {
         c.next = x;
     }
 
+    // Method to handle remove operations
     void remove(int id) {
         if (head == null)
             return;
@@ -92,6 +96,7 @@ class TaskList {
         } while (c != head);
     }
 
+    // Method to handle current next operations
     void currentNext() {
         if (current == null) {
             System.out.println("No tasks");
@@ -101,6 +106,7 @@ class TaskList {
         current = current.next;
     }
 
+    // Method to handle display operations
     void display() {
         if (head == null)
             return;
@@ -111,6 +117,7 @@ class TaskList {
         } while (c != head);
     }
 
+    // Method to handle search priority operations
     void searchPriority(int p) {
         if (head == null)
             return;
@@ -124,6 +131,7 @@ class TaskList {
 }
 
 class CircularTaskScheduler {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         TaskList t = new TaskList();
         t.addBeginning(1, "Study Java", 1, "08-10-2026");

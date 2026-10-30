@@ -35,6 +35,7 @@ class UserNode {
 class SocialList {
     private UserNode head;
 
+    // Method to handle add user operations
     void addUser(int i, String n, int a) {
         UserNode x = new UserNode(i, n, a);
         if (head == null) {
@@ -61,6 +62,7 @@ class SocialList {
         return null;
     }
 
+    // Method to handle has operations
     boolean has(UserNode u, int id) {
         for (FriendNode f = u.friends; f != null; f = f.next)
             if (f.id == id)
@@ -68,6 +70,7 @@ class SocialList {
         return false;
     }
 
+    // Method to handle add one operations
     void addOne(UserNode u, int id) {
         if (has(u, id))
             return;
@@ -76,6 +79,7 @@ class SocialList {
         u.friends = x;
     }
 
+    // Method to handle connect operations
     void connect(int a, int b) {
         UserNode x = searchId(a), y = searchId(b);
         if (x != null && y != null) {
@@ -84,6 +88,7 @@ class SocialList {
         }
     }
 
+    // Method to handle remove one operations
     void removeOne(UserNode u, int id) {
         FriendNode p = null, c = u.friends;
         while (c != null) {
@@ -99,6 +104,7 @@ class SocialList {
         }
     }
 
+    // Method to handle remove operations
     void remove(int a, int b) {
         UserNode x = searchId(a), y = searchId(b);
         if (x != null && y != null) {
@@ -107,6 +113,7 @@ class SocialList {
         }
     }
 
+    // Method to handle display friends operations
     void displayFriends(int id) {
         UserNode u = searchId(id);
         if (u == null)
@@ -118,6 +125,7 @@ class SocialList {
         }
     }
 
+    // Method to handle mutual operations
     void mutual(int a, int b) {
         UserNode x = searchId(a), y = searchId(b);
         if (x == null || y == null)
@@ -130,6 +138,7 @@ class SocialList {
             }
     }
 
+    // Method to handle count operations
     int count(int id) {
         UserNode u = searchId(id);
         int n = 0;
@@ -141,6 +150,7 @@ class SocialList {
 }
 
 class SinglySocialMediaFriends {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         SocialList s = new SocialList();
         s.addUser(1, "Ashish", 20);

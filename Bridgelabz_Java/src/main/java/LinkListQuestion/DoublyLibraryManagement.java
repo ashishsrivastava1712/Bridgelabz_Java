@@ -29,6 +29,7 @@ class LibraryList {
     private LibraryNode head, tail;
     private int size;
 
+    // Method to handle add beginning operations
     void addBeginning(String t, String a, String g, int i, boolean v) {
         LibraryNode x = new LibraryNode(t, a, g, i, v);
         if (head == null)
@@ -41,6 +42,7 @@ class LibraryList {
         size++;
     }
 
+    // Method to handle add end operations
     void addEnd(String t, String a, String g, int i, boolean v) {
         LibraryNode x = new LibraryNode(t, a, g, i, v);
         if (tail == null)
@@ -53,6 +55,7 @@ class LibraryList {
         size++;
     }
 
+    // Method to handle add position operations
     void addPosition(int p, String t, String a, String g, int i, boolean v) {
         if (p <= 1 || head == null) {
             addBeginning(t, a, g, i, v);
@@ -80,6 +83,7 @@ class LibraryList {
         return null;
     }
 
+    // Method to handle remove operations
     void remove(int i) {
         LibraryNode x = searchId(i);
         if (x == null)
@@ -95,44 +99,52 @@ class LibraryList {
         size--;
     }
 
+    // Method to handle search title operations
     void searchTitle(String t) {
         for (LibraryNode c = head; c != null; c = c.next)
             if (c.title.equalsIgnoreCase(t))
                 show(c);
     }
 
+    // Method to handle search author operations
     void searchAuthor(String a) {
         for (LibraryNode c = head; c != null; c = c.next)
             if (c.author.equalsIgnoreCase(a))
                 show(c);
     }
 
+    // Method to handle update availability operations
     void updateAvailability(int i, boolean v) {
         LibraryNode x = searchId(i);
         if (x != null)
             x.available = v;
     }
 
+    // Method to handle forward operations
     void forward() {
         for (LibraryNode c = head; c != null; c = c.next)
             show(c);
     }
 
+    // Method to handle reverse operations
     void reverse() {
         for (LibraryNode c = tail; c != null; c = c.prev)
             show(c);
     }
 
+    // Method to handle count operations
     int count() {
         return size;
     }
 
+    // Method to handle show operations
     void show(LibraryNode x) {
         System.out.println(x.id + " | " + x.title + " | " + x.author + " | " + x.genre + " | " + x.available);
     }
 }
 
 class DoublyLibraryManagement {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         LibraryList l = new LibraryList();
         l.addBeginning("Java Basics", "James", "Programming", 1, true);

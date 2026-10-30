@@ -119,6 +119,7 @@ class CustomHashMap {
         }
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         CustomHashMap map = new CustomHashMap();
 

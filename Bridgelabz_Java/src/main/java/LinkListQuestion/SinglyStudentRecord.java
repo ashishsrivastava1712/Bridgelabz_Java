@@ -27,12 +27,14 @@ class StudentNode {
 class StudentList {
     private StudentNode head;
 
+    // Method to handle add beginning operations
     void addBeginning(int r, String n, int a, String g) {
         StudentNode x = new StudentNode(r, n, a, g);
         x.next = head;
         head = x;
     }
 
+    // Method to handle add end operations
     void addEnd(int r, String n, int a, String g) {
         StudentNode x = new StudentNode(r, n, a, g);
         if (head == null) {
@@ -45,6 +47,7 @@ class StudentList {
         c.next = x;
     }
 
+    // Method to handle add position operations
     void addPosition(int p, int r, String n, int a, String g) {
         if (p <= 1 || head == null) {
             addBeginning(r, n, a, g);
@@ -58,6 +61,7 @@ class StudentList {
         c.next = x;
     }
 
+    // Method to handle delete operations
     void delete(int r) {
         if (head == null)
             return;
@@ -82,12 +86,14 @@ class StudentList {
         return null;
     }
 
+    // Method to handle update grade operations
     void updateGrade(int r, String g) {
         StudentNode x = search(r);
         if (x != null)
             x.grade = g;
     }
 
+    // Method to handle display operations
     void display() {
         StudentNode c = head;
         while (c != null) {
@@ -98,6 +104,7 @@ class StudentList {
 }
 
 class SinglyStudentRecord {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         StudentList s = new StudentList();
         s.addBeginning(1, "Ashish", 20, "A");

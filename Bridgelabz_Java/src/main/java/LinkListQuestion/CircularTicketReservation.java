@@ -28,6 +28,7 @@ class TicketList {
     private TicketNode head, tail;
     private int size;
 
+    // Method to handle add operations
     void add(int i, String c, String m, String s, String t) {
         TicketNode x = new TicketNode(i, c, m, s, t);
         if (head == null) {
@@ -41,6 +42,7 @@ class TicketList {
         size++;
     }
 
+    // Method to handle remove operations
     void remove(int id) {
         if (head == null)
             return;
@@ -65,6 +67,7 @@ class TicketList {
         } while (c != head);
     }
 
+    // Method to handle display operations
     void display() {
         if (head == null)
             return;
@@ -75,6 +78,7 @@ class TicketList {
         } while (c != head);
     }
 
+    // Method to handle search customer operations
     void searchCustomer(String n) {
         if (head == null)
             return;
@@ -86,6 +90,7 @@ class TicketList {
         } while (c != head);
     }
 
+    // Method to handle search movie operations
     void searchMovie(String n) {
         if (head == null)
             return;
@@ -97,16 +102,19 @@ class TicketList {
         } while (c != head);
     }
 
+    // Method to handle count operations
     int count() {
         return size;
     }
 
+    // Method to handle show operations
     void show(TicketNode x) {
         System.out.println(x.id + " | " + x.customer + " | " + x.movie + " | " + x.seat + " | " + x.time);
     }
 }
 
 class CircularTicketReservation {
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] a) {
         TicketList t = new TicketList();
         t.add(1, "Ashish", "Interstellar", "A10", "10:00 AM");

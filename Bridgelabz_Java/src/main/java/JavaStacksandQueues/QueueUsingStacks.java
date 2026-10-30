@@ -37,6 +37,7 @@ class QueueUsingStacks {
         return stack2.pop();
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         QueueUsingStacks q = new QueueUsingStacks();
 

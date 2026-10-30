@@ -1,3 +1,11 @@
+/*
+ * Question: Implementation and demonstration of Something
+ * Problem Statement:
+ * Demonstrates the core logic, functionality, and operations for Something.
+ *
+ * Author: Ashish Srivastava
+ * Date: 16 - 10 - 2026
+ */
 package JavaStacksandQueues;
 import java.util.*;
 public class Something {

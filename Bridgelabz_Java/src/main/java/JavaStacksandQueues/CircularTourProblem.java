@@ -13,6 +13,7 @@ package JavaStacksandQueues;
 
 
 class CircularTourProblem {
+    // Method to handle find start operations
     static int findStart(int[] petrol, int[] distance) {
         int total = 0;
         int current = 0;
@@ -37,6 +38,7 @@ class CircularTourProblem {
         return start;
     }
 
+    // Main execution method to run and demonstrate the solution
     public static void main(String[] args) {
         int[] petrol = {4, 6, 7, 4};
         int[] distance = {6, 5, 3, 5};
